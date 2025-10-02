@@ -1,73 +1,84 @@
-# Welcome to your Lovable project
+# 🤖 Fitness Buddy: An AI-Engineered Gym Companion
+A modern, full-stack fitness application built with an emphasis on AI Automation and embedded Conversational AI Agents to guide users through their health and workout journey. This project showcases the power of prompt-driven development and cutting-edge web technologies.
 
-## Project info
+# ✨ Key Features
+Conversational AI Agent: A core agent that understands fitness goals, provides personalized workout routines, tracks progress, and offers nutritional advice via a chat interface.
+Profile Setup: Guided conversational onboarding to establish user profiles (goals, experience, preferences).
+Workout Planner: AI-driven routine generation and management.
+Nutrition Tracker: Monitor caloric intake and macronutrients with smart suggestions from the AI.
+Progress Dashboard: Visualize fitness milestones and historical data.
 
-**URL**: https://lovable.dev/projects/ad3cb234-0652-4437-b0fc-f16e6930b813
+# 💻 Tech Stack & Architecture
+This project is the direct output of Prompt Engineering, utilizing a modern stack for a fast, scalable, and responsive application.
 
-## How can I edit this code?
+# Area	Technology	Role
+Development Engine	Lovable Platform	AI Automation & Generation, Deployment
+Frontend	React, TypeScript, Vite	Fast, type-safe, component-based user interface
+Styling/UI	Tailwind CSS, shadcn-ui	Utility-first styling for responsive and accessible components
+Logic/Agents	Supabase Functions (Serverless)	Hosts the core Conversational AI Agent logic
+Database	Supabase	Authentication, Real-time data storage, and backend services
 
-There are several ways of editing your application.
+# Export to Sheets
+🛠 Getting Started (Local Development)
+You can work on this codebase by cloning the repository and setting up the local environment.
 
-**Use Lovable**
+# Prerequisites
+You must have Node.js and npm installed on your system. Using nvm is highly recommended for managing Node versions.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/ad3cb234-0652-4437-b0fc-f16e6930b813) and start prompting.
+# Installation & Run
+Clone the Repository:
 
-Changes made via Lovable will be committed automatically to this repo.
+Bash
 
-**Use your preferred IDE**
+git clone https://github.com/SwethaNarayanasamy1920/Fitness-Buddy.git
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+#Navigate to the Project:
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Bash
 
-Follow these steps:
+cd Fitness-Buddy
+Install Dependencies:
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+Bash
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+npm install
+Start the Development Server:
 
-# Step 3: Install the necessary dependencies.
-npm i
+Bash
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
 npm run dev
-```
+The application will be available at http://localhost:5173 (or similar port).
 
-**Edit a file directly in GitHub**
+Note: For full functionality, you will need to set up the necessary environment variables (.env file) for Supabase and the underlying LLM/AI services used by the agents.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+🚀 Deployment
+This project's deployment pipeline is managed by the Lovable platform, which simplifies publishing the AI-generated code.
 
-**Use GitHub Codespaces**
+Lovable Deployment
+Visit the Lovable Project URL.
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Navigate to Share → Publish.
 
-## What technologies are used for this project?
+Custom Domain
+To set up a custom domain for your deployed application:
 
-This project is built with:
+Go to Project → Settings → Domains.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Click Connect Domain and follow the instructions.
 
-## How can I deploy this project?
+💡 How to Contribute
+Contributions are welcome, whether through further Prompt Engineering in the Lovable editor or direct code modifications.
 
-Simply open [Lovable](https://lovable.dev/projects/ad3cb234-0652-4437-b0fc-f16e6930b813) and click on Share -> Publish.
+Fork the repository.
 
-## Can I connect a custom domain to my Lovable project?
+Create a new branch for your feature or fix: git checkout -b feature/your-feature-name.
 
-Yes, you can!
+Make and commit your changes (git commit -m 'Feat: Added new feature X').
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+Push to your branch: git push origin feature/your-feature-name.
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+Open a Pull Request.
+
+# Project Status
+# Visit the website for Realtime Experience: https://gym-companion-ai.vercel.app/
+# GitHub Repo: https://github.com/SwethaNarayanasamy1920/Fitness-Buddy.git
