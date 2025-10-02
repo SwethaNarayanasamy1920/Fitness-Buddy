@@ -1,0 +1,4 @@
+project_id = "fhdijubftjysqsdpblph"
+
+[functions.fitness-ai-chat]
+verify_jwt = true
